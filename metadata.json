@@ -1,0 +1,6 @@
+{
+  "name": "체험해바유 - 농촌 체험 & 6차 산업 비즈니스 플랫폼",
+  "description": "전 연령대를 위한 자연 친화적 힐링 농촌 체험과 농가 고수익 6차 산업 비즈니스 솔루션을 제공하는 플랫폼, 체험해바유입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

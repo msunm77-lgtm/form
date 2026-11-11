@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Pretendard Variable", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+    color: #1e261f;
+    background-color: #fbfbfa;
+    scroll-behavior: smooth;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  body {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span, a, button, label, li, dt, dd {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  ::selection {
+    background-color: #c9ded0;
+    color: #12301c;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f2ec;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd3c5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aab5a3;
+}
